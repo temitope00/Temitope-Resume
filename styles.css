@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    background-color: #c7cfcf;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+#header {
+    width: 80%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Centers the entire header container */
+    text-align: center;
+    /* Centers the content inside the header */
+    padding-bottom: none;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-break {
+    break-after: page;
+    /* Or you can use page-break-after: always; */
+}
+
+#header h1 {
+    font-size: 2.5em;
+    color: #070707;
+    text-transform: uppercase;
+}
+
+#header p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+#header a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#header a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.15em;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 1px;
+    text-transform: uppercase;
+}
+
+.role h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.role p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    margin-top: 20px;
+}
